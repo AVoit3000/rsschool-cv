@@ -44,3 +44,8 @@ function multiply (a, b){
 - RS School. JS/Frontend-development course. Stage#1 (in progress)
 
 ---
+
+### Languages:
+
+- Russian – Native
+- English – Pre-intermediate
