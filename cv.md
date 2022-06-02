@@ -18,3 +18,29 @@ I consider my main qualities as ability to work with large amount of information
 Thanks to these qualities I have no doubt that I will become an experienced Frontend Developer.
 
 ---
+
+### Skills:
+
+- HTML&CSS
+- JavaScript Basics
+- Git, GitHub
+- Editors: Sublime Text, VS Code
+
+---
+
+### Code example:
+
+```
+function multiply (a, b){
+    return a * b
+}
+```
+
+---
+
+### Courses:
+
+- JavaScript Manual on learnjavascript.ru (in progress)
+- RS School. JS/Frontend-development course. Stage#1 (in progress)
+
+---
