@@ -1,0 +1,10 @@
+h1 {
+  margin: 0px 0;
+}
+.hr-line {
+  margin: 5px 0;
+  padding: 0;
+  height: 0;
+  border: none;
+  border-top: 3px solid #333;
+}
