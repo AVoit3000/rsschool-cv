@@ -1,5 +1,7 @@
 # Alexander Voitovich
 
+![my foto](./img/my_foto.jpg)
+
 ## Contacts for communication:
 
 tel.: _+375447652095_
