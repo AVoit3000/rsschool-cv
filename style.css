@@ -106,8 +106,8 @@ body {
   content: "";
   position: absolute;
   top: 50px;
-  right: -20px;
-  width: 440px;
+  right: -15px;
+  width: 410px;
   height: 3px;
   background-color: #030020a9;
 }
