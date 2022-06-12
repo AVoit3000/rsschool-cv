@@ -1,6 +1,6 @@
 # Alexander Voitovich
 
-![my foto](./img/my_foto.jpg)
+![my foto](./assets/img/my_foto.jpg)
 
 ## Contacts for communication:
 
