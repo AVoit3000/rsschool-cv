@@ -1,0 +1,248 @@
+@font-face {
+  font-family: Roboto;
+  src: url("assets/fonts/Roboto-Light.ttf");
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: Roboto;
+  src: url("assets/fonts/Roboto-Regular.ttf");
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: Roboto;
+  src: url("assets/fonts/Roboto-Medium.ttf");
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: Roboto;
+  src: url("assets/fonts/Roboto-Bold.ttf");
+  font-weight: 700;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth; 
+}
+
+h1, h2, h3 {
+  padding: 0;
+  margin: 0;
+}
+
+p {
+  margin: -15px 10px 20px 20px;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 0;
+  padding: 0;
+  font-family: Roboto, sans-serif;
+}
+
+.header {
+  background-color: #030020a9;
+}
+
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.nav-list {
+  display: flex;
+  justify-content: flex-end;
+  list-style-type: none;
+  align-items: center;
+  padding: 10px;
+}
+
+.nav-link {
+  color: #fff;
+  margin-left: 20px;
+  font-size: 18px;
+  text-decoration: none;
+}
+
+.main-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.section-profyle {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  padding: 20px;
+  border-bottom: 10px solid #030020a9;
+}
+
+.section-profyle-title {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 25px;
+  letter-spacing: 2px;
+}
+
+.main-title {
+  position: relative;
+  padding-bottom: 20px;
+}
+
+.main-title::before {
+  content: "";
+  position: absolute;
+  top: 50px;
+  right: -15px;
+  width: 410px;
+  height: 3px;
+  background-color: #030020a9;
+}
+
+.section-left {
+  width: 22%;
+}
+
+.section-right {
+  width: 78%;
+  text-align: left;
+  font-size: 21px;
+  line-height: 30px;
+  border-bottom: 3px solid #030020a9;
+}
+
+.section-item {
+  position: relative;
+}
+
+.section-item::before {
+  content: "";
+  position: absolute;
+  top: 7px;
+  left: -22px;
+  width: 15px;
+  height: 15px; 
+  background-size: 15px 15px;
+  background-image: url("assets/svg/icon.svg");
+}
+
+a {
+  text-decoration: none;
+}
+
+.contacts-item::before {
+  content: "";
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 24px;
+  height: 24px; 
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+  
+.contacts-item:nth-child(1):before {
+  background-image: url("assets/svg/gps.svg");
+  top: 3px;
+  left: -26px;
+}
+
+.contacts-item:nth-child(2):before {
+  top: 3px;
+  left: -25px;
+  width: 21px;
+  height: 21px;
+  background-image: url("assets/svg/gmail.svg");
+}
+  
+.contacts-item:nth-child(3):before {
+  top: 3px;
+  left: -25px;
+  width: 21px;
+  height: 21px;
+  background-image: url("assets/svg/github.svg");
+}
+  
+.contacts-item:nth-child(4):before {
+  top: 3px;
+  left: -25px;
+  width: 21px;
+  height: 21px;
+  background-image: url("assets/svg/discord.svg");
+}
+
+.contacts-item:nth-child(5):before {
+  top: 4px;
+  left: -25px;
+  width: 21px;
+  height: 21px;
+  background-image: url("assets/svg/linkedin.svg");
+}
+
+span {
+  color: #343397;
+  font-weight: 500;
+}
+
+.foto {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 100px;
+  box-shadow: 0 0 20px rgba(3, 0, 32, 0.5);
+}
+
+.section-title {
+  text-align: center;
+  font-size: 30px;
+  letter-spacing: 1px;
+  font-weight: 700;
+}
+
+.list {
+  list-style-type: none;
+  padding: 10px;
+  margin: -20px 10px 10px 10px;
+}
+
+footer {
+  background-color: #030020a9;
+  padding: 20px;
+  margin-top: 30px;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+  color: #fff;
+}
+
+.rss {
+  width: 110px;
+  height: 40px;
+  background-image: url("https://rs.school/images/rs_school_js.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.white {
+  color: #fff;
+  padding: 0;
+  margin: 0;
+  text-align: right;
+}
