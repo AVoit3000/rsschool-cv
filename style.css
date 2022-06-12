@@ -200,7 +200,6 @@ span {
 .foto {
   width: 200px;
   height: 200px;
-  /*margin-left: 50px;*/
   object-fit: cover;
   border-radius: 100px;
   box-shadow: 0 0 20px rgba(3, 0, 32, 0.5);
